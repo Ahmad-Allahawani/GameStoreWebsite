@@ -221,59 +221,11 @@
 //                return NotFound();
 //            }
 //        }
-//   //     public IActionResult Search()
-//   //     {
-//			//return View();
-//   //     }
-//   //     [HttpPost, ActionName("search")]
-//   //     [ValidateAntiForgeryToken]
-//   //     public async Task<IActionResult> Search(string name)
-//   //     {
-//   //         if (name != null)
-//   //         {
-//   //             var item = await _context.Items.FirstOrDefaultAsync(s => s.Name == name);
-//   //             //return View($"{nameof(Profile)}", student);
-//   //             return RedirectToAction("Index", "home");
-
-//   //         }
-//   //         else
-//   //         {
-//   //             return NotFound();
-//   //         }
-
-
-//   //     }
 
 
 
-//        //////old login form 
-//        //public IActionResult login()
-//        //{
-//        //    return View();
-//        //}
 
-//        //[HttpPost, ActionName("login")]
-//        //[ValidateAntiForgeryToken]
-//        //public async Task<IActionResult> Login(int? id, String password)
-//        //{
-//        //    if (id != null && ModelState.IsValid)
-//        //    {
-//        //        var student = await _context.Students
-//        //            .FirstOrDefaultAsync(m => m.Id == id && m.password == password);
-//        //        if (student != null)
-//        //        {
-//        //            return RedirectToAction("Index", "Home");
-//        //        }
-//        //        else
-//        //        {
-//        //            return NotFound();
-//        //        }
-//        //    }
-//        //    else
-//        //    {
-//        //        return View();
-//        //    }
-//        //}
+
 
 //        //public IActionResult register()
 //        //{
